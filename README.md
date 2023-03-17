@@ -233,7 +233,7 @@ If you like this project please give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse community
+Thank you Microverse!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -263,6 +263,6 @@ To write a global variable you start the variable with a ``$``sign which should 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
