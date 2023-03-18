@@ -13,6 +13,10 @@ class App
     @rentals = []
   end
 
+  def run
+    puts("display books")
+  end
+
   def loads_books
     # code to list all books
   end
