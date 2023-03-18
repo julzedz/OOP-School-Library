@@ -49,7 +49,7 @@ class App
       puts 'Invalid'
     end
   end
- 
+
   def create_student(age, name)
     print 'Has parent permission? [Y/N]: '
     permission = gets.chomp.downcase
@@ -90,7 +90,7 @@ class App
     index = gets.chomp.to_i
     book = @books[index]
 
-    puts 'Select a person by number (not ID)'    
+    puts 'Select a person by number (not ID)'
     @people.each_with_index do |person, i|
       puts("  #{i}) [#{person.class}] ID: #{person.id} Name: #{person.name} Age: #{person.age}")
     end
@@ -105,8 +105,6 @@ class App
     puts "Date:  #{date}"
     puts('Book has been rented successfully')
   end
-
- 
 
   def load_rentals
     print 'Person ID '
