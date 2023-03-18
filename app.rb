@@ -14,7 +14,7 @@ class App
   end
 
   def run
-    puts("display books")
+    puts('display books')
   end
 
   def loads_books
