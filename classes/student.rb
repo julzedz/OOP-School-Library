@@ -5,6 +5,7 @@ class Student < Person
 
   def initialize(name, age, classroom, parent_permission: true)
     super(age, name: name, parent_permission: parent_permission)
+    # rubocop:disable Lint/DuplicateMethods
     @classroom = classroom
     @type = type
   end
