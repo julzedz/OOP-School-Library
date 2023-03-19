@@ -9,7 +9,6 @@ class Student < Person
     @classroom = classroom
     @type = type
   end
-    # rubocop:enable Lint/DuplicateMethods
 
   def play_hooky
     '¯\\(ツ)/¯'
@@ -19,4 +18,6 @@ class Student < Person
     @classroom = classroom
     classroom.students.push(self) unless classroom.students.include?(self)
   end
+  # rubocop:enable Lint/DuplicateMethods
+
 end
